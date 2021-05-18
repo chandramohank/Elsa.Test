@@ -1,0 +1,43 @@
+﻿{
+  "activities": [
+    {
+      "id": "35470e3a-ebe1-4558-aa02-a556919b1764",
+      "type": "Signaled",
+      "left": 1230,
+      "top": 941,
+      "state": {
+        "signal": {
+          "expression": "RegisterUser",
+          "syntax": "Literal"
+        },
+        "name": "",
+        "title": "RegisterUser",
+        "description": ""
+      },
+      "blocking": false,
+      "executed": false,
+      "faulted": false
+    },
+    {
+      "id": "2c8b6772-9897-41fb-9097-b11f05e09b4d",
+      "type": "Test",
+      "left": 34,
+      "top": 146,
+      "state": {
+        "name": "Test",
+        "title": "",
+        "description": ""
+      },
+      "blocking": false,
+      "executed": false,
+      "faulted": false
+    }
+  ],
+  "connections": [
+    {
+      "sourceActivityId": "39ac31d6-68c7-41aa-8d3b-de5cf148982f",
+      "destinationActivityId": "2c8b6772-9897-41fb-9097-b11f05e09b4d",
+      "outcome": "Done"
+    }
+  ]
+}
