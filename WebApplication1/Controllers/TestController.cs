@@ -19,10 +19,10 @@ namespace WebApplication1.Controllers
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<TestController> _logger;
         private readonly IWorkflowInvoker invoker;
 
-        public TestController(ILogger<WeatherForecastController> logger, IWorkflowInvoker invoker)
+        public TestController(ILogger<TestController> logger, IWorkflowInvoker invoker)
         {
             _logger = logger;
             this.invoker = invoker;
