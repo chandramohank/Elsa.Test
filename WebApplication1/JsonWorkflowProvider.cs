@@ -25,8 +25,7 @@ namespace WebApplication1
 
         public async Task<IEnumerable<WorkflowDefinitionVersion>> GetWorkflowDefinitionsAsync(CancellationToken cancellationToken)
         {
-            var workflowsDirectoryPath = @"C:\Users\chkunt\source\repos\WebApplication1\WebApplication1";
-            var workflowFiles = Directory.GetFiles(workflowsDirectoryPath, "*.json");
+            var workflowFiles = Directory.GetFiles(@".\Workflows", "*.json");
             var workflowDefinitionTasks = workflowFiles.Select(this.LoadWorkflowDefinition).ToList();
             await Task.WhenAll(workflowDefinitionTasks);
             return workflowDefinitionTasks.Select(x => x.Result);

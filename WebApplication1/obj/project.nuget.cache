@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FL19XnChLXavMDFnpAsxPKlsQTSDmyRwIQdZHhps9e25ff3pC4xzUPq1Iuv+M+7bEYc3Wzezvc07Qhb8JUH37g==",
+  "dgSpecHash": "gKMW5A/tUJVKTMNLPTjPJ5dMOM3lkWfE9PP8wSw9r1P/jiuE3FaDB4R+U0F2yDGRWGZ67R0mwBWzew+vhgTxCg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\chkunt\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+  "projectFilePath": "C:\\Users\\chkunt\\source\\repos\\elsa\\Elsa.Test\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chkunt\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\chkunt\\.nuget\\packages\\elsa.abstractions\\1.5.5.1943\\elsa.abstractions.1.5.5.1943.nupkg.sha512",

@@ -7387,11 +7387,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chkunt\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "C:\\Users\\chkunt\\source\\repos\\elsa\\Elsa.Test\\WebApplication1\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "C:\\Users\\chkunt\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "projectPath": "C:\\Users\\chkunt\\source\\repos\\elsa\\Elsa.Test\\WebApplication1\\WebApplication1.csproj",
       "packagesPath": "C:\\Users\\chkunt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chkunt\\source\\repos\\WebApplication1\\WebApplication1\\obj\\",
+      "outputPath": "C:\\Users\\chkunt\\source\\repos\\elsa\\Elsa.Test\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
